@@ -1,0 +1,6 @@
+* under linux environment set this as vm arg
+
+-Djava.library.path="${workspace_loc:client/src/main/os/linux/native}:${workspace_loc:client/src/main/os/linux/mozilla}"
+-Djna.library.path="${workspace_loc:client/src/main/os/linux/native}:${workspace_loc:client/src/main/os/linux/mozilla}"
+-Xms512m 
+-Xmx512m
